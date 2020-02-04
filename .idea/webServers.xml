@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6d5f061c-ada8-4679-b634-c9e172f4df95" name="HITS (1)" url="http://scampit@srira-ap-ps1a.med.umich.edu">
+        <fileTransfer host="scampit@srira-ap-ps1a.med.umich.edu" port="22" rootFolder="/data/scampit" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>HITS</name>
+        <servers>
+          <name value="HITS (1)" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

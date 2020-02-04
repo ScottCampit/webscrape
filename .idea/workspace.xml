@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cbeaec2-d1d5-4c21-9669-b17c0031b175" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webScrape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubmedParse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/bin/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/bin/activate.csh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/bin/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/bin/python3.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/lib64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyenv/pyvenv.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XJuDxHan0SuRcpfBs2o7cbhi4Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cbeaec2-d1d5-4c21-9669-b17c0031b175" name="Default Changelist" comment="" />
+      <created>1580776461457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580776461457</updated>
+      <workItem from="1580776463076" duration="2841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2727" y="0" width="530" height="601" key="FileChooserDialogImpl" timestamp="1580779271408">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2727" y="0" width="530" height="601" key="FileChooserDialogImpl/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580779271408" />
+    <state x="2253" y="120" width="1254" height="908" key="SettingsEditor" timestamp="1580779396974">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="333" y="164" width="1254" height="908" key="SettingsEditor/0.34.1920.1166/1920.0.1920.1080@0.34.1920.1166" timestamp="1580776516763" />
+    <state x="2253" y="120" width="1254" height="908" key="SettingsEditor/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580779396974" />
+    <state x="2761" y="143" width="873" height="864" key="ftp.server.browser" timestamp="1580779360569">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2761" y="143" width="873" height="864" key="ftp.server.browser/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580779360569" />
+  </component>
+</project>
