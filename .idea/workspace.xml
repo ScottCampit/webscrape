@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbeaec2-d1d5-4c21-9669-b17c0031b175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webScrape.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pubmedParse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/bin/python3.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/lib64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyenv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parse.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webscrape" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XJuDxHan0SuRcpfBs2o7cbhi4Z" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,14 +38,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/hits/software/webscrape" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -79,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580776461457</updated>
-      <workItem from="1580776463076" duration="2841000" />
+      <workItem from="1580776463076" duration="7803000" />
+      <workItem from="1580826544829" duration="3958000" />
     </task>
     <servers />
   </component>
@@ -90,15 +81,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2727" y="0" width="530" height="601" key="FileChooserDialogImpl" timestamp="1580779271408">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="807" y="34" width="530" height="601" key="FileChooserDialogImpl" timestamp="1580782180669">
+      <screen x="0" y="34" width="1920" height="1166" />
     </state>
-    <state x="2727" y="0" width="530" height="601" key="FileChooserDialogImpl/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580779271408" />
-    <state x="2253" y="120" width="1254" height="908" key="SettingsEditor" timestamp="1580779396974">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="807" y="34" key="FileChooserDialogImpl/0.34.1920.1166/1920.0.1920.1080@0.34.1920.1166" timestamp="1580782180669" />
+    <state x="2727" y="0" width="530" height="601" key="FileChooserDialogImpl/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580781626475" />
+    <state x="333" y="150" width="1254" height="908" key="SettingsEditor" timestamp="1580827291077">
+      <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="333" y="164" width="1254" height="908" key="SettingsEditor/0.34.1920.1166/1920.0.1920.1080@0.34.1920.1166" timestamp="1580776516763" />
-    <state x="2253" y="120" width="1254" height="908" key="SettingsEditor/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580779396974" />
+    <state x="2253" y="120" width="1254" height="908" key="SettingsEditor/0.34.1920.1166/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580779588426" />
+    <state x="333" y="150" width="1254" height="908" key="SettingsEditor/1920.0.1920.1080/0.34.1920.1046@0.34.1920.1046" timestamp="1580827291077" />
     <state x="2761" y="143" width="873" height="864" key="ftp.server.browser" timestamp="1580779360569">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
