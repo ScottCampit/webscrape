@@ -4,11 +4,12 @@
 
 from metapub import PubMedFetcher
 import pandas as pd
+import sys
 
 fetch = PubMedFetcher()
 
 # Get PMIDs using query
-pmids = fetch.pmids_for_query(query='"chromatin" "metabolism" "humans" "histones/metabolism"',
+pmids = fetch.pmids_for_query(query=sys.argv[1],
                               since=None,
                               until=None,
                               retmax=1000)
@@ -24,4 +25,4 @@ df = pd.DataFrame.from_dict(abstracts,
                             orient='index',
                             columns=['Title', 'Abstract', 'Journal', 'Year', 'Authors'])
 df.index.name = 'PMID'
-df.to_csv('abstracts.csv')
+df.to_csv(sys.argv[2]+'.csv')
