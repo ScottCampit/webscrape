@@ -1,5 +1,6 @@
 """
-
+Parse PubMed 
+@Author: Scott Campit
 """
 
 from metapub import PubMedFetcher
