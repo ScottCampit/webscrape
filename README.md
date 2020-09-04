@@ -4,7 +4,7 @@
 ## Summary
 This software uses the `PubMedFetcher` API (see documentation [here](https://pypi.org/project/metapub/)) for extracting a table containing useful summary data. The fields are shown in the table below:
 
-|----|-------------|--------|-------|----|-------|
+|--|--|--|--|--|--|
 |PMID|Article Title|Abstract|Journal|Year|Authors|
 
 ## Usage
