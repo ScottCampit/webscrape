@@ -12,16 +12,29 @@ from metapub import PubMedFetcher
 import pandas as pd
 import sys
 
-def keyword_query(keywords=sys.argv[1], savepath=sys.argv[2]):
+def keyword_query(keywords=sys.argv[1], savepath=sys.argv[2],
+	              start_date=None, end_date=None, 
+	              num_of_articles=1000):
 	"""
+	keyword_query takes in a keyword string or list of keywords, and outputs 
+	PMIDs that have a match of those keywords.
+
+	:param keywords:         A string or a list of keywords to query.
+	:param savepath:         A string denoting the full path to save the file in.
+	:param start_date:       A string denoting the start date.
+	:param end_date:         A string denoting the end date.
+	:param num_of_articles:  An integer denoting the maximum number of articles.
+
+	:return df:              A pandas dataframe of the query.
 	"""
+	
 	fetch = PubMedFetcher()
 
 	# Get PMIDs using query
 	pmids = fetch.pmids_for_query(query=keywords,
-	                              since=None,
-	                              until=None,
-	                              retmax=1000)
+	                              since=start_date,
+	                              until=end_date,
+	                              retmax=num_of_articles)
 	print("Number of PMIDs with search query: " + str(len(pmids)))
 
 	# Get abstracts based on keyword search. 
