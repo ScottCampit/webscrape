@@ -1,8 +1,0 @@
-'
-"epithelial-mesenchymal transition"
-"neoplasm"
-"metabolism"
-"metabolic networks and pathways/metabolism"
-"Energy Metabolism/metabolism"
-"Transformation, Epithelial-Mesenchymal"
-'

@@ -1,29 +1,50 @@
 """
-Parse PubMed 
-@Author: Scott Campit
+parse.py contains functions to help query PubMed programmically. 
+
+UPDATES 09/11/2020:
+  * Created `keyword_query` function to encapsulate the keyword search function
+  * Updated some inline comments and variable names to make code more readable
+
+@author: Scott Campit
 """
 
 from metapub import PubMedFetcher
 import pandas as pd
 import sys
 
-fetch = PubMedFetcher()
+def keyword_query(keywords=sys.argv[1], savepath=sys.argv[2]):
+	"""
+	"""
+	fetch = PubMedFetcher()
 
-# Get PMIDs using query
-pmids = fetch.pmids_for_query(query=sys.argv[1],
-                              since=None,
-                              until=None,
-                              retmax=1000)
-print("Number of PMIDs with search query: " + str(len(pmids)))
-#print("Example PMID Queried: " + str(pmids[4]))
-# Get abstracts based on keyword search
-abstracts = {}
-for id in pmids:
-    article = fetch.article_by_pmid(id)
-    abstracts[id] = [article.title, article.abstract, article.journal, article.year, article.authors]
-    #print(abstracts[id])
-df = pd.DataFrame.from_dict(abstracts,
-                            orient='index',
-                            columns=['Title', 'Abstract', 'Journal', 'Year', 'Authors'])
-df.index.name = 'PMID'
-df.to_csv(sys.argv[2]+'.csv')
+	# Get PMIDs using query
+	pmids = fetch.pmids_for_query(query=keywords,
+	                              since=None,
+	                              until=None,
+	                              retmax=1000)
+	print("Number of PMIDs with search query: " + str(len(pmids)))
+
+	# Get abstracts based on keyword search. 
+	# The query saves to a dictionary, using the PMID as the key.
+	abstracts = {}
+	for id in pmids:
+	    article = fetch.article_by_pmid(id)
+	    abstracts[id] = [article.title, article.abstract, 
+	                     article.journal, article.year, 
+	                     article.authors]
+
+	# Save the dictionary as a dataframe   
+	df = pd.DataFrame.from_dict(abstracts,
+	                            orient='index',
+	                            columns=['Title', 'Abstract', 
+	                                     'Journal', 'Year', 
+	                                     'Authors'])
+
+	# Save the dataframe
+	df.index.name = 'PMID'
+	df.to_csv(savepath)
+
+	return df
+
+if __name__ == "__main__":
+	keyword_query(keywords=sys.argv[1], savepath=sys.argv[2])
