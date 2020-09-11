@@ -1,9 +1,12 @@
 """
 parse.py contains functions to help query PubMed programmically. 
 
+parse.py utilizes the metabpub library to make queries on the eUtils API. For more information on
+the metapub library, you can read the docs: https://github.com/metapub/metapub
+
 UPDATES 09/11/2020:
   * Created `keyword_query` function to encapsulate the keyword search function
-  * Updated some inline comments and variable names to make code more readable
+  * Updated some inline comments, docstring, and variable names to make code more readable
 
 @author: Scott Campit
 """
@@ -17,7 +20,11 @@ def keyword_query(keywords=sys.argv[1], savepath=sys.argv[2],
 	              num_of_articles=1000):
 	"""
 	keyword_query takes in a keyword string or list of keywords, and outputs 
-	PMIDs that have a match of those keywords.
+	a dataframe with article meta data that matches the keyword query.
+
+	**NOTE**: Long queries (~1000+ articles) will take > 5 minutes. 
+	Thus, it is advisable to add additional keywords and filters to constrain the 
+	search space.
 
 	:param keywords:         A string or a list of keywords to query.
 	:param savepath:         A string denoting the full path to save the file in.
@@ -27,7 +34,7 @@ def keyword_query(keywords=sys.argv[1], savepath=sys.argv[2],
 
 	:return df:              A pandas dataframe of the query.
 	"""
-	
+
 	fetch = PubMedFetcher()
 
 	# Get PMIDs using query
